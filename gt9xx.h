@@ -35,6 +35,7 @@
 #include <linux/interrupt.h>
 #include <linux/io.h>
 #include <linux/gpio.h>
+#include <linux/uaccess.h>
 #ifdef CONFIG_OF
 #include <linux/of_gpio.h>
 #include <linux/regulator/consumer.h>
